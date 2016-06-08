@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<title>主持队跳转</title>
-		<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
-		<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
 
 	<body style="background-color: #d8d7d7;">
@@ -14,9 +14,9 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="__PUBLIC__/img/logo.png" alt="师大之音"></a>
+					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
-						<img src="__PUBLIC__/img/menu-icon.png" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -35,75 +35,75 @@
 		<div class="container team-turn" style="margin-top: 80px;">
 			<div class="row">
 				<div class="col-sm-4">
-					<img src="__PUBLIC__/img/menber1.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber1.png" class="img-responsive center-block" alt="" />
 				</div>
 				<div class="col-sm-4">
-					<img src="__PUBLIC__/img/menber2.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber2.png" class="img-responsive center-block" alt="" />
 				</div>
 				<div class="col-sm-4">
-					<img src="__PUBLIC__/img/menber3.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber3.png" class="img-responsive center-block" alt="" />
 				</div>
 				</div>
 				<div class="clear"></div>
 
 				<div class="row" style="margin-top: 30px;">
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber4.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber4.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber5.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber5.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber6.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber6.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber7.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber7.png" class="img-responsive center-block" alt="" />
 					</div>
 				</div>
 				<div class="clear"></div>
 				
 				<div class="row" style="margin-top: 30px;">
 				<div class="col-sm-4">
-					<img src="__PUBLIC__/img/menber8.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber8.png" class="img-responsive center-block" alt="" />
 				</div>
 				<div class="col-sm-4">
-					<img src="__PUBLIC__/img/menber9.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber9.png" class="img-responsive center-block" alt="" />
 				</div>
 				<div class="col-sm-4">
-					<img src="__PUBLIC__/img/menber10.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber10.png" class="img-responsive center-block" alt="" />
 				</div>
 				</div>
 				<div class="clear"></div>
 				
 				<div class="row" style="margin-top: 30px;">
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber11.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber11.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber12.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber12.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber13.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber13.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3">
-						<img src="__PUBLIC__/img/menber14.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menber14.png" class="img-responsive center-block" alt="" />
 					</div>
 				</div>
 				<div class="clear"></div>
 				
 				<div class="row" style="margin-top: 30px;">
 				<div class="col-sm-6">
-					<img src="__PUBLIC__/img/menber15.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber15.png" class="img-responsive center-block" alt="" />
 				</div>
 				<div class="col-sm-6">
-					<img src="__PUBLIC__/img/menber16.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/menber16.png" class="img-responsive center-block" alt="" />
 				</div>
 				</div>
 				<div class="clear"></div>
 				
 				<div class="row" style="margin-top: 30px;">
 				<div class="col-sm-12">
-					<img src="__PUBLIC__/img/lglogo.png" class="img-responsive center-block" alt="" />
+					<img src="/bnuzbroadcast/Public/img/lglogo.png" class="img-responsive center-block" alt="" />
 				</div>
 				</div>
 				<div class="clear"></div>
@@ -117,8 +117,8 @@
 			</footer>
 		</div>
 
-		<script src="__PUBLIC__/js/jquery.min.js"></script>
-		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
 	</body>
 
 </html>

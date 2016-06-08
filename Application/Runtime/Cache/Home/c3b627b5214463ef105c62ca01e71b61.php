@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<title>播放</title>
-		<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
-		<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
 
 	<body>
@@ -14,9 +14,9 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="__PUBLIC__/img/logo.png" alt="师大之音"></a>
+					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
-						<img src="__PUBLIC__/img/menu-icon.png" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -38,10 +38,10 @@
 					<div class="col-md-6">
 						<div class="medi">
 							<div class="media-heading">
-								<img src="__PUBLIC__/img/play1.png" class="img-responsive center-block" alt="" />
+								<img src="/bnuzbroadcast/Public/img/play1.png" class="img-responsive center-block" alt="" />
 							</div>
 							<div class="media-body" style="padding-top: 80px;">
-								<audio src="__PUBLIC__/audio/宋冬野 - 斑马，斑马.mp3" preload="auto" />
+								<audio src="/bnuzbroadcast/Public/audio/宋冬野 - 斑马，斑马.mp3" preload="auto" />
 							</div>
 						</div>
 					</div>
@@ -55,10 +55,10 @@
 									/>春这朵美丽的鲜花，而不必去琢磨调落的花瓣和枯黄的残枝<br />败叶，好好利用我们青春这笔宝贵的财富，创造出我们能拥<br />有的未来的资本。 其实青春，并不短暂，青春之花调谢后，<br />她又会孕育出新的更艳丽的花朵，“落红不是无情物，化作<br />春泥更护花”，...</p>
 							</div>
 							<div class="media-bottom" style="margin-left: 60%;margin-top: 20px;">
-								<img src="__PUBLIC__/img/play.png" />
-								<img src="__PUBLIC__/img/download.png" />
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/play.png" />
+								<img src="/bnuzbroadcast/Public/img/download.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -74,17 +74,17 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer"></div>
 					</div>
 					
 					<div class="col-md-4">
 						<p class="tab-p1" style="text-align: center;">同栏目推荐</p>
-						<img src="__PUBLIC__/img/recommend1.png" class="img-responsive center-block"/>
+						<img src="/bnuzbroadcast/Public/img/recommend1.png" class="img-responsive center-block"/>
 						<p class="tab-p1" style="margin-top: 50px;text-align: center;">同栏目推荐</p>
-						<img src="__PUBLIC__/img/recommend2.png" class="img-responsive center-block"/>
+						<img src="/bnuzbroadcast/Public/img/recommend2.png" class="img-responsive center-block"/>
 					</div>
 					
 				</div>
@@ -102,9 +102,9 @@
 		</div>
 
 
-		<script src="__PUBLIC__/js/jquery.min.js"></script>
-		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
-		<script src="__PUBLIC__/audiojs/audiojs/audio.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
+		<script src="/bnuzbroadcast/Public/audiojs/audiojs/audio.min.js"></script>
 		<script>
 			audiojs.events.ready(function() {
 				var as = audiojs.createAll();
@@ -120,7 +120,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);

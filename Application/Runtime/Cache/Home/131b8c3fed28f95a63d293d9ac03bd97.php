@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
-		<title>主持人页</title>
-		<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
-		<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+		<title>主页</title>
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
 	<body style="background-color: #d8d7d7;">
 		
@@ -14,9 +14,9 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="__PUBLIC__/img/logo.png" alt="师大之音"></a>
+					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
-						<img src="__PUBLIC__/img/menu-icon.png" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -36,31 +36,31 @@
 			 <div class="container">
 			 	<div class="row">
 			 		<div class="col-sm-5" >
-			 			<img src="__PUBLIC__/img/smm4.png" data-target="#myCarousel" data-slide-to="3" alt="" onclick="host4()"  class="m2"/>
-			 			<img src="__PUBLIC__/img/smm3.png" data-target="#myCarousel" data-slide-to="2" alt="" onclick="host3()"  class="m2"/>
-			 			<img src="__PUBLIC__/img/smm2.png" data-target="#myCarousel" data-slide-to="1" alt="" onclick="host2()"  class="m2"/>
-			 			<img src="__PUBLIC__/img/smm1.png" data-target="#myCarousel" data-slide-to="0" alt="" onclick="host1()"  class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm4.png" data-target="#myCarousel" data-slide-to="3" alt="" onclick="host4()"  class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm3.png" data-target="#myCarousel" data-slide-to="2" alt="" onclick="host3()"  class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm2.png" data-target="#myCarousel" data-slide-to="1" alt="" onclick="host2()"  class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm1.png" data-target="#myCarousel" data-slide-to="0" alt="" onclick="host1()"  class="m2"/>
 			 		</div>
 			 		<div class="col-sm-5" >
-			 			<img src="__PUBLIC__/img/smm5.png" data-target="#myCarousel" data-slide-to="4" alt="" onclick="host5()"  class="m1"/>
-			 			<img src="__PUBLIC__/img/smm6.png" data-target="#myCarousel" data-slide-to="5" alt="" onclick="host6()"  class="m1"/>
-			 			<img src="__PUBLIC__/img/smm7.png" data-target="#myCarousel" data-slide-to="6" alt="" onclick="host7()"  class="m1"/>
-			 			<img src="__PUBLIC__/img/smm8.png" data-target="#myCarousel" data-slide-to="7" alt="" onclick="host8()"  class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm5.png" data-target="#myCarousel" data-slide-to="4" alt="" onclick="host5()"  class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm6.png" data-target="#myCarousel" data-slide-to="5" alt="" onclick="host6()"  class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm7.png" data-target="#myCarousel" data-slide-to="6" alt="" onclick="host7()"  class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm8.png" data-target="#myCarousel" data-slide-to="7" alt="" onclick="host8()"  class="m1"/>
 			 		</div>
 			 	</div>
 			 	<div class="row">
 			 		<div class="col-sm-2"></div>
 			 		<div class="col-sm-5" >
-			 			<img src="__PUBLIC__/img/smm12.png" data-target="#myCarousel" data-slide-to="8" alt=""  onclick="host12()" class="m2"/>
-			 			<img src="__PUBLIC__/img/smm11.png" data-target="#myCarousel" data-slide-to="9" alt=""  onclick="host11()" class="m2"/>
-			 			<img src="__PUBLIC__/img/smm10.png" data-target="#myCarousel" data-slide-to="10" alt=""  onclick="host10()" class="m2"/>
-			 			<img src="__PUBLIC__/img/smm9.png"  data-target="#myCarousel" data-slide-to="11"  alt=""  onclick="host9()" class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm12.png" data-target="#myCarousel" data-slide-to="8" alt=""  onclick="host12()" class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm11.png" data-target="#myCarousel" data-slide-to="9" alt=""  onclick="host11()" class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm10.png" data-target="#myCarousel" data-slide-to="10" alt=""  onclick="host10()" class="m2"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm9.png"  data-target="#myCarousel" data-slide-to="11"  alt=""  onclick="host9()" class="m2"/>
 			 		</div>
 			 		<div class="col-sm-5" >
-			 			<img src="__PUBLIC__/img/smm13.png" data-target="#myCarousel" data-slide-to="12" alt=""  onclick="host13()" class="m1"/>
-			 			<img src="__PUBLIC__/img/smm14.png" data-target="#myCarousel" data-slide-to="13" alt=""  onclick="host14()" class="m1"/>
-			 			<img src="__PUBLIC__/img/smm15.png" data-target="#myCarousel" data-slide-to="14" alt=""  onclick="host15()" class="m1"/>
-			 			<img src="__PUBLIC__/img/smm16.png" data-target="#myCarousel" data-slide-to="15" alt=""  onclick="host16()" class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm13.png" data-target="#myCarousel" data-slide-to="12" alt=""  onclick="host13()" class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm14.png" data-target="#myCarousel" data-slide-to="13" alt=""  onclick="host14()" class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm15.png" data-target="#myCarousel" data-slide-to="14" alt=""  onclick="host15()" class="m1"/>
+			 			<img src="/bnuzbroadcast/Public/img/smm16.png" data-target="#myCarousel" data-slide-to="15" alt=""  onclick="host16()" class="m1"/>
 			 		</div>
 			 	</div>
 			 </div>
@@ -77,17 +77,17 @@
 				<div class="item active">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm1.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -97,17 +97,17 @@
 				<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm2.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm2.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm2.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm2.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -117,17 +117,17 @@
 				<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm3.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm3.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm3.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm3.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -137,17 +137,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm4.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm4.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm4.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm4.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -157,17 +157,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm5.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm5.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm5.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm5.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -177,17 +177,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm6.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm6.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm6.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm6.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -197,17 +197,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm7.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm7.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm7.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm7.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -218,17 +218,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm8.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm8.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm8.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm8.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -239,17 +239,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm9.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm9.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm9.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm9.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -260,17 +260,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm10.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm10.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm10.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm10.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -281,17 +281,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm11.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm11.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm11.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm11.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -302,17 +302,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm12.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm12.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm12.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm12.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -323,17 +323,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm13.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm13.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm13.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm13.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -344,17 +344,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm14.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm14.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm14.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm14.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -365,17 +365,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm15.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm15.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm15.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm15.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -386,17 +386,17 @@
 					<div class="item">
 					<div class="row">
 						<div class="col-md-7">
-							<img src="__PUBLIC__/img/lgm16.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/lgm16.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
 							<h2 class="tab-h2">校主持队队长</h2>
-							<img src="__PUBLIC__/img/mdm16.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/mdm16.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
 							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
-								<img src="__PUBLIC__/img/like.png" />
-								<img src="__PUBLIC__/img/comment.png" />
+								<img src="/bnuzbroadcast/Public/img/like.png" />
+								<img src="/bnuzbroadcast/Public/img/comment.png" />
 							</div>
 						</div>
 					</div>
@@ -419,9 +419,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer1"></div>
 				</div>
 			</div>
@@ -438,9 +438,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">2211111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">1111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">2211111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">1111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer2"></div>
 					</div>
 			</div>
@@ -457,9 +457,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">13311asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">13311asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer3"></div>
 					</div>
 			</div>
@@ -477,9 +477,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">44111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">44111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer4"></div>
 					</div>
 			</div>
@@ -497,9 +497,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">55111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">55111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer5"></div>
 					</div>
 			</div>
@@ -517,9 +517,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">666111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">666111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer6"></div>
 					</div>
 			</div>
@@ -537,9 +537,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">777111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">777111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer7"></div>
 					</div>
 			</div>
@@ -557,9 +557,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">888111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">888111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer8"></div>
 					</div>
 			</div>
@@ -578,9 +578,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">99999111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">99999111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer9"></div>
 					</div>
 			</div>
@@ -599,9 +599,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">1010101111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">1010101111asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer10"></div>
 					</div>
 			</div>
@@ -621,9 +621,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">111as11das11d11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">111as11das11d11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer11"></div>
 					</div>
 			</div>
@@ -642,9 +642,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">121212asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">121212asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer12"></div>
 					</div>
 			</div>
@@ -664,9 +664,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">131313asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">131313asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer13"></div>
 					</div>
 			</div>
@@ -686,9 +686,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">141414asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">141414asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer14"></div>
 					</div>
 			</div>
@@ -707,9 +707,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">151515asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">151515asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer15"></div>
 					</div>
 			</div>
@@ -728,9 +728,9 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">161616asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
-						<div class="content"><img src="__PUBLIC__/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">161616asdasd11111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
+						<div class="content"><img src="/bnuzbroadcast/Public/img/touxiang1.png" width="40px" class="header">11111111111<div class="stime">2016/4/30 下午10:00:40</div><div class="clear"></div></div>
 						<div id="layer16"></div>
 					</div>
 			</div>
@@ -751,8 +751,8 @@
 			</footer>
 		</div>
 
-		<script src="__PUBLIC__/js/jquery.min.js"></script>
-		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			function addContent1()
 			{
@@ -763,7 +763,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -780,7 +780,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -797,7 +797,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -814,7 +814,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -831,7 +831,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -848,7 +848,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -865,7 +865,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -882,7 +882,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -899,7 +899,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -916,7 +916,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -933,7 +933,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -950,7 +950,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -967,7 +967,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -984,7 +984,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -1001,7 +1001,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);
@@ -1018,7 +1018,7 @@
 				con = con.replace(/\n/g,"<br />");
  
 				
-				divlayer.innerHTML = "<img src='__PUBLIC__/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
+				divlayer.innerHTML = "<img src='/bnuzbroadcast/Public/img/touxiang1.png' width='40px' class='header' />" + con + "<div class='stime'>" + now.toLocaleString() + "</div><div class='clear'></div>";
 				divlayer.className = "content";
 				
 				layer.appendChild(divlayer);

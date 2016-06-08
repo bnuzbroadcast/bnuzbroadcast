@@ -1,20 +1,20 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<title>登陆</title>
-		<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
-		<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
 	<body style="background-color: #ecebeb;">
 		<!-- 导航 -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="__PUBLIC__/img/logo.png" alt="师大之音"></a>
+					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
-						<img src="__PUBLIC__/img/menu-icon.png" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -35,7 +35,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-2">
-					<img src="__PUBLIC__/img/logo.png" style="margin-left: 4%;"/>
+					<img src="/bnuzbroadcast/Public/img/logo.png" style="margin-left: 4%;"/>
 					<span class="tab-h2" style="margin-left: 2%;text-align: left;">BNUZ BROADCAST STATION</span>
 				</div>
 			</div>
@@ -100,7 +100,7 @@
 		
 		
 		
-		<script src="__PUBLIC__/js/jquery.min.js"></script>
-		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
 	</body>
 </html>

@@ -4,8 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<title>主持队主页</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
 	<body style="background-color: #eae9e9;">
 		
@@ -13,9 +13,9 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="img/logo.png" alt="师大之音"></a>
+					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
-						<img src="img/menu-icon.png" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -43,13 +43,13 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="img/host-lunbo1.png" alt="第一张">
+					<img src="/bnuzbroadcast/Public/img/host-lunbo1.png" alt="第一张">
 				</div>
 				<div class="item">
-					<img src="img/host-lunbo1.png" alt="第二张">
+					<img src="/bnuzbroadcast/Public/img/host-lunbo1.png" alt="第二张">
 				</div>
 				<div class="item">
-					<img src="img/host-lunbo1.png" alt="第三张">
+					<img src="/bnuzbroadcast/Public/img/host-lunbo1.png" alt="第三张">
 				</div>
 			</div>
 			<a href="#myCarousel" data-slide="prev" class="carousel-control left">
@@ -76,7 +76,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-							<img src="img/host-team.png" class="img-responsive center-block" style="margin-top: 30px;margin-bottom: 20px;" />
+							<img src="/bnuzbroadcast/Public/img/host-team.png" class="img-responsive center-block" style="margin-top: 30px;margin-bottom: 20px;" />
 					</div>
 				</div>
 			</div>
@@ -90,7 +90,7 @@
 				<div class="row" style="background-color: #fbfcfc;">
 					<div class="col-md-12">
 					<div class="col-md-4 col-sm-4 tab6-margin">
-						<img src="img/team1.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/team1.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-md-8 col-sm-8 tab6-margin" style="text-align: center;">
 						<h3 class="tab-h3">陈建武</h3>
@@ -103,7 +103,7 @@
 					
 					<div class="col-md-12">
 					<div class="col-md-4 col-sm-4 tab6-margin tab6-img">
-						<img src="img/team2.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/team2.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-md-8 col-sm-8 tab6-margin tab6-text" style="text-align: center;">
 						<h3 class="tab-h3">马宇晴</h3>
@@ -116,7 +116,7 @@
 					
 					<div class="col-md-12">
 					<div class="col-md-4 col-sm-4 tab6-margin" >
-						<img src="img/team3.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/team3.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-md-8 col-sm-8 tab6-margin" style="text-align: center;">
 						<h3 class="tab-h3">潘志航</h3>
@@ -129,7 +129,7 @@
 					
 					<div class="col-md-12">
 					<div class="col-md-4 col-sm-4 tab6-margin tab6-img">
-						<img src="img/team4.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/team4.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-md-8 col-sm-8 tab6-margin tab6-text" style="text-align: center;">
 						<h3 class="tab-h3">申博扬</h3>
@@ -150,7 +150,7 @@
 				<h2 class="tab-h2">OUR NEWS</h2>
 				<div class="row">
 					<div class="col-md-6" style="padding-left: 0;padding-right: 0;">
-						<img src="img/news1.png" width="100%" class="img-responsive"/>
+						<img src="/bnuzbroadcast/Public/img/news1.png" width="100%" class="img-responsive"/>
 					</div>
 					<div class="col-md-6" style="text-align: center;">
 						<h3 class="tab-h3">Host team of BNUZ</h3>
@@ -164,7 +164,7 @@
 				
 				<div class="row">
 						<div class="col-md-6 tab6-img" style="padding-left: 0;padding-right: 0;">
-						<img src="img/news1.png" width="100%" class="img-responsive"/>
+						<img src="/bnuzbroadcast/Public/img/news1.png" width="100%" class="img-responsive"/>
 					</div>
 					<div class="col-md-6 tab6-text" style="text-align: center;">
 						<h3 class="tab-h3">Host team of BNUZ</h3>
@@ -188,8 +188,8 @@
 		</div>
 				
 		
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			//轮播自动播放
 			$('#myCarousel').carousel({

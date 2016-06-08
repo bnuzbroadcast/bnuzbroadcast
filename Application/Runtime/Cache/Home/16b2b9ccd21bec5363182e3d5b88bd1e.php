@@ -5,8 +5,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<title>品牌活动</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
 
 	<body>
@@ -14,9 +14,9 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="img/logo.png" alt="师大之音"></a>
+					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
-						<img src="img/menu-icon.png" alt="" />
+						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -41,13 +41,13 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="img/host-lunbo1.png" alt="第一张">
+					<img src="/bnuzbroadcast/Public/img/host-lunbo1.png" alt="第一张">
 				</div>
 				<div class="item">
-					<img src="img/host-lunbo1.png" alt="第二张">
+					<img src="/bnuzbroadcast/Public/img/host-lunbo1.png" alt="第二张">
 				</div>
 				<div class="item">
-					<img src="img/host-lunbo1.png" alt="第三张">
+					<img src="/bnuzbroadcast/Public/img/host-lunbo1.png" alt="第三张">
 				</div>
 			</div>
 			<a href="#myCarousel" data-slide="prev" class="carousel-control left">
@@ -67,16 +67,16 @@
 				<p class="tab-p" style="text-align: center;">品牌活动</p>
 				<div class="row" style="margin-top: 30px;">
 					<div class="col-sm-3" >
-						<img src="img/activity1.png" class="img-responsive center-block" />
+						<img src="/bnuzbroadcast/Public/img/activity1.png" class="img-responsive center-block" />
 					</div>
 					<div class="col-sm-3" >
-						<img src="img/activity2.png" class="img-responsive center-block" />
+						<img src="/bnuzbroadcast/Public/img/activity2.png" class="img-responsive center-block" />
 					</div>
 					<div class="col-sm-3" >
-						<img src="img/activity3.png" class="img-responsive center-block" />
+						<img src="/bnuzbroadcast/Public/img/activity3.png" class="img-responsive center-block" />
 					</div>
 					<div class="col-sm-3" >
-						<img src="img/activity4.png" class="img-responsive center-block" />
+						<img src="/bnuzbroadcast/Public/img/activity4.png" class="img-responsive center-block" />
 					</div>
 				</div>
 			</div>
@@ -90,33 +90,33 @@
 				<p class="tab-p" style="text-align: center;">精彩瞬间</p>
 				<div class="row">
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories1.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories1.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories2.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories2.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories3.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories3.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories4.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories4.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories5.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories5.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories6.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories6.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories7.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories7.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-sm-3" style="margin-top: 20px;">
-						<img src="img/memories8.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memories8.png" class="img-responsive center-block" alt="" />
 					</div>
 				</div>
 				<div class="row" style="margin-top: 50px;">
 					<div class="col-md-12">
-						<img src="img/memory11.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/memory11.png" class="img-responsive center-block" alt="" />
 					</div>
 				</div>
 			</div>
@@ -141,8 +141,8 @@
 			</footer>
 		</div>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			//轮播自动播放
 			$('#myCarousel').carousel({

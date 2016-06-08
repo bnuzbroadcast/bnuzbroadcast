@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 		<title>栏目</title>
-		<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
-		<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
 
 	<body style="background-color: #f4f4f4;">
@@ -14,7 +14,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="__PUBLIC__/img/logo.png" alt="师大之音"></a>
+					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
 						<img src="img/menu-icon.png" alt="" />
 					</button>
@@ -33,7 +33,7 @@
 		</nav>
 
 		<div style="margin-top: 60px;">
-			<img src="__PUBLIC__/img/feichangd.png" class="img-responsive center-block"  />
+			<img src="/bnuzbroadcast/Public/img/feichangd.png" class="img-responsive center-block"  />
 		</div>
 	
 	
@@ -51,10 +51,10 @@
 				<h5 class="tab-h5" style="margin-bottom: 30px;text-align: center;">往期节目</h5>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="__PUBLIC__/img/pastshow1.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/pastshow1.png" class="img-responsive center-block" alt="" />
 					</div>
 					<div class="col-md-6">
-						<img src="__PUBLIC__/img/pastshow2.png" class="img-responsive center-block" alt="" />
+						<img src="/bnuzbroadcast/Public/img/pastshow2.png" class="img-responsive center-block" alt="" />
 					</div>
 				</div>
 				<div style="background-color: #b6e2f0;margin-top: 30px;margin-bottom: 30px;">
@@ -70,64 +70,64 @@
 					<h5 class="tab-h5">四月</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 					
 					<h5 class="tab-h5">三月</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 					
 					<h5 class="tab-h5">二月</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 					
 					<h5 class="tab-h5">一月</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 				</div>
@@ -137,64 +137,64 @@
 					<h5 class="tab-h5">四月1</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 					
 					<h5 class="tab-h5">三月1</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 					
 					<h5 class="tab-h5">二月1</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 					
 					<h5 class="tab-h5">一月1</h5>
 					<div class="row">
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-sm-3">
-							<img src="__PUBLIC__/img/new1.png" class="img-responsive center-block"/>
+							<img src="/bnuzbroadcast/Public/img/new1.png" class="img-responsive center-block"/>
 						</div>
 					</div>
 				</div>
@@ -211,8 +211,8 @@
 			</footer>
 		</div>
 
-		<script src="__PUBLIC__/js/jquery.min.js"></script>
-		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			function shownew1(){
 				var new1 = document.getElementById('new2016');
