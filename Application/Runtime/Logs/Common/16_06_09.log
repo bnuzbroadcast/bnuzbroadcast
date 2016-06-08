@@ -1,0 +1,282 @@
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/menu-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/middle2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载模块:Css
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/middle1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/lunbo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/middle3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002883s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Css
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Js
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载模块:Js
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/select1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/download.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/middle4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/like.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/comment.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/play.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/notice1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/select3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/select2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/notice2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/notice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:43:27+08:00 ] ::1 /bnuzbroadcast/img/notice4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:50:34+08:00 ] ::1 /bnuzbroadcast/Activity2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Activity2
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/menu-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载模块:Js
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000594s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+ERR: 无法加载模块:Css
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: 无法加载模块:Css
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载模块:Js
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/middle3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/middle1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/lunbo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/middle4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/middle2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/select1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+ERR: 无法加载模块:Js
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/comment.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002070s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/like.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/play.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/select2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/select3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/download.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/notice1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/notice.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/notice2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003537s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/notice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-09T01:51:10+08:00 ] ::1 /bnuzbroadcast/img/notice4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+ERR: 无法加载模块:Img
+
