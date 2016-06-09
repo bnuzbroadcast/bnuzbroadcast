@@ -17,7 +17,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
+					<a href="<?php echo U('Home/index/index');?>" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
 						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
@@ -25,11 +25,11 @@
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="index.html">师大之音</a></li>
-						<li><a href="#">品牌活动</a></li>
-						<li><a href="#">往期节目</a></li>
+						<li><a href="<?php echo U('Home/activity/index');?>">品牌活动</a></li>
+						<li><a href="<?php echo U('Home/lanmu/index');?>">往期节目</a></li>
 						<li><a href="#">校内公告</a></li>
-						<li><a href="#">校主持队</a></li>
-						<li><a href="#">在线收听</a></li>
+						<li><a href="<?php echo U('Home/host/index');?>">校主持队</a></li>
+						<li><a href="<?php echo U('Home/play/index');?>">在线收听</a></li>
 						<li data-toggle="modal" data-target="#myModal"><a href="#">注册</a></li>
 					</ul>
 				</div>

@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
-		<title>主页</title>
+		<title>主持人页</title>
 		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
 	</head>
@@ -14,7 +14,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
+					<a href="<?php echo U('Home/index/index');?>" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
 						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
 					</button>
@@ -22,11 +22,13 @@
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="index.html">师大之音</a></li>
-						<li><a href="#">品牌活动</a></li>
-						<li><a href="#">往期节目</a></li>
+						<li><a href="<?php echo U('Home/activity/index');?>">品牌活动</a></li>
+						<li><a href="<?php echo U('Home/lanmu/index');?>">往期节目</a></li>
 						<li><a href="#">校内公告</a></li>
-						<li><a href="#">校主持队</a></li>
-						<li><a href="#">在线收听</a></li>
+						<li><a href="<?php echo U('Home/host/index');?>">校主持队</a></li>
+						<li><a href="<?php echo U('Home/play/index');?>">在线收听</a></li>
+						<li><a href="<?php echo U('Home/login/index');?>">登陆</a></li>
+						<li><a href="<?php echo U('Home/signup/index');?>">注册</a></li>
 					</ul>
 				</div>
 			</div>
@@ -83,7 +85,7 @@
 							<h2 class="tab-h2">校主持队队长</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm1.png" class="img-responsive center-block"/>
 							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -100,10 +102,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm2.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm2.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">李玲慧</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:165cm <br /> 服装与服饰设计<br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -120,10 +122,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm3.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm3.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">冯佳</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:169cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -140,10 +142,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm4.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm4.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">林晶晗</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:172cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -160,10 +162,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm5.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm5.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">谭湘雯</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:168cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -180,10 +182,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm6.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm6.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">成栩莹</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:162cm <br /> 英语-国际汉语教育 双专 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -200,10 +202,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm7.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm7.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">赵俊</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:163cm <br /> 汉语言文学 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -221,10 +223,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm8.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm8.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">郝晨欣</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:164cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -242,10 +244,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm9.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队副队长</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm9.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">潘志航</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:181cm <br /> 播音与主持艺术 <br /> 职位:副队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -263,10 +265,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm10.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队副队长</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm10.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">申博扬</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:178cm <br /> 传播学 <br /> 职位:副队长 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -284,10 +286,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm11.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm11.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">张宇辉</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:169cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -305,10 +307,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm12.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm12.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">林钧和</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:169cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -326,10 +328,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm13.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm13.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">方良文</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:180cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -347,10 +349,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm14.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm14.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">刘银寺</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:183cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -368,10 +370,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm15.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm15.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">杨力帆</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:178cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />
@@ -389,10 +391,10 @@
 							<img src="/bnuzbroadcast/Public/img/lgm16.png" class="img-responsive center-block"/>
 						</div>
 						<div class="col-md-5" style="text-align: center;">
-							<h2 class="tab-h2">校主持队队长</h2>
+							<h2 class="tab-h2">校主持队队员</h2>
 							<img src="/bnuzbroadcast/Public/img/mdm16.png" class="img-responsive center-block"/>
-							<h3 class="tab-h3">马宇晴</h3>
-							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">马宇晴身高:169cm <br /> 播音与主持艺术 <br /> 职位:队长 </p>
+							<h3 class="tab-h3">孙铭泽</h3>
+							<p class="tab-p1" style="border-bottom: 5px solid #6ab3a7;padding-bottom: 15px;">身高:180cm <br /> 播音与主持艺术 <br /> 职位:队员 </p>
 							<div class="more">
 								<a href="" style="margin-right: 30px;"><input type="button" style="font-size: 20px;" value="活动邀约"></a>
 								<img src="/bnuzbroadcast/Public/img/like.png" />

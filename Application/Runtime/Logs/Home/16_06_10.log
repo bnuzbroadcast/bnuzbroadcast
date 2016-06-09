@@ -1,0 +1,286 @@
+[ 2016-06-10T00:02:04+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-06-10T00:02:05+08:00 ] ::1 /bnuzbroadcast/index.php/Home/play/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2016-06-10T00:02:06+08:00 ] ::1 /bnuzbroadcast/index.php/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\LoginController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2016-06-10T00:02:07+08:00 ] ::1 /bnuzbroadcast/index.php/Home/play/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-06-10T00:02:08+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-06-10T00:02:08+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-06-10T00:02:09+08:00 ] ::1 /bnuzbroadcast/index.php/Home/activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-06-10T00:02:11+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-06-10T00:02:12+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2016-06-10T00:02:12+08:00 ] ::1 /bnuzbroadcast/index.php/Home/play/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2016-06-10T00:02:18+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000823s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-06-10T00:02:30+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000951s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-06-10T00:56:34+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 6 and defined C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000691s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000882s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
