@@ -195,7 +195,7 @@ footer{
 
 /*注册登陆*/
 .log{
-	margin-top: 6%;
+	margin-top: 10%;
 }
 .log-broad{
 	width: 100%;
@@ -238,10 +238,20 @@ footer{
 
 
 /*管理员界面*/
-.admin{
-	margin-top: 120px;
+.admin-ul{
+	margin: 0;
+	padding: 0;
+	background-color: #F8F8F8;
+	width: 250px;
 }
-
+.admin-ul li{
+	height: 60px;
+	list-style: none;
+	font-size: 20px;
+	text-align: center;
+	line-height: 60px;
+	border-bottom: 1px solid #d0d0d0;
+}
 
 
 
@@ -624,6 +634,5 @@ text-align: center;
 	float: right;
 	margin-left: 30px;
 }
-
 
 
