@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<title></title>
 	</head>
-	<frameset rows="50,*" frameborder="0">
+	<frameset rows="60,*" frameborder="0">
 
 		<frame src="top.html">
 
