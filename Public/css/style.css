@@ -252,6 +252,9 @@ footer{
 	line-height: 60px;
 	border-bottom: 1px solid #d0d0d0;
 }
+#t_activity,#t_comment,#t_host,#t_notice,#t_program{
+	display: none;
+}
 
 
 
